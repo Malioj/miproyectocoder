@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23397d;
+
+}
+
+.carousel-inner img {
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    height: 50vh; /* Ajusta la altura al 100% del contenedor */
+}
+
+figure {
+    position: relative;
+}
+
+figcaption  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #23397d;
+}
+
+.col-xxl-6 img {
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+    ;
+}
+
+/* footer{
+    /height: 90vh; 
+} */
+
+.imagen{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-position: center;
+}
+
+.centrado{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*-------------------------SEPARADO POR PAGINAS ------------------*/
+
+
+
+/* ---------------------------BIENESTAR ANIMAL ---------------------*/
+
+.portada-bienestar{
+background-image: url(../multimedia/confort-portada.jpg);
+}
+
+.cepillo{
+    background-image: url(../multimedia/cepillos.jpg);
+}
+
+.piso-goma{
+    background-image: url(../multimedia/piso-goma.jpg);
+}
+
+
+
+/* ----------------------------------VMS----------------------------- */
+
+.portada-vms{
+    background-image: url(../multimedia/vms-portada.jpg);
+}
+
+.vms-image{
+    background-image: url(../multimedia/vms.webp);
+}
+.vms-image1{
+    background-image: url(../multimedia/vms-vaca.jpg);
+}
+
+
+/* ---------------------------------DelPro -----------------------------*/
+
+.portada-delpro{
+    background-image: url(../multimedia/portada-delpro.jpg);
+}
+.delpro-app{
+    background-image: url(../multimedia/delpro-aplicacion.webp);
+}
+.delpro-giro{
+    background-image: url(../multimedia/delpro-giro.png);
+}
+
+/* ---------------------------------SERVICIO-----------------------------*/
+
+.portada-servicio{
+    background-image: url(../multimedia/portada-servicio.jpg);
+}
+
+.servicio1{
+    background-image: url(../multimedia/servicio.jpg);
+}
+
+
+/*----------------------------------- PRODUCTOS --------------------------*/
+
