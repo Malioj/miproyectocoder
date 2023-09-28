@@ -1,0 +1,138 @@
+// VARIABLES
+$color-fondo: #23397d;
+$altura-banner: 40vh;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Propiedades del body
+body {
+    background-color: $color-fondo;
+}
+
+// Estilo para que me redireccione a la pag, al hacer click en cualquier lado de la pagina
+.carousel-inner img {
+    object-fit: cover;
+    /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    height: 50vh;
+    /* Ajusta la altura al 100% del contenedor */
+    filter: brightness(65%);
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: $color-fondo;
+}
+
+.col-xxl-6 img {
+    object-fit: cover;
+    width: 100%;
+    height: $altura-banner;
+    ;
+}
+
+// --------------------------------------------------------------------------------------
+// clase para imagenes 
+.imagen {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $altura-banner;
+    background-position: center;
+}
+
+// clase para centrar objetos
+.centrado {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*-----------------------------------------------------------------*/
+/*-------------------------SEPARADO POR PAGINAS ------------------*/
+
+/* ---------------------------BIENESTAR ANIMAL ---------------------*/
+.portada-bienestar {
+    background-image: url(../multimedia/confort-portada.jpg);
+}
+
+.cepillo {
+    background-image: url(../multimedia/cepillos.jpg);
+}
+
+.piso-goma {
+    background-image: url(../multimedia/piso-goma.jpg);
+}
+
+/* ----------------------------------VMS----------------------------- */
+.portada-vms {
+    background-image: url(../multimedia/vms-portada.jpg);
+}
+
+.vms-image {
+    background-image: url(../multimedia/vms.webp);
+}
+
+.vms-image1 {
+    background-image: url(../multimedia/vms-vaca.jpg);
+}
+
+/* ---------------------------------DelPro -----------------------------*/
+.portada-delpro {
+    background-image: url(../multimedia/delpro-portada1.png);
+}
+
+.delpro-app {
+    background-image: url(../multimedia/delpro-aplicacion.webp);
+}
+
+.delpro-giro {
+    background-image: url(../multimedia/delpro-giro.webp);
+}
+
+/* ---------------------------------SERVICIO-----------------------------*/
+.portada-servicio {
+    background-image: url(../multimedia/servicio-tec.jpg);
+}
+
+.servicio1 {
+    background-image: url(../multimedia/portada-servicio.jpg);
+}
+.servicio2 {
+    background-image: url(../multimedia/servicio-tecnico.jpg);
+}
+
+/*----------------------------------- PRODUCTOS --------------------------*/
+.catalogo1 {
+    background-image: url(../multimedia/catalogo1.png);
+}
+
+.catalogo2 {
+    background-image: url(../multimedia/catalogo2.png);
+}
+
+.catalogo3 {
+    background-image: url(../multimedia/catalogo3.png);
+}
+
+.catalogo4 {
+    background-image: url(../multimedia/catalogo4.jpg);
+}
+
+.catalogo5 {
+    background-image: url(../multimedia/catalogo5.png);
+}
+
+.catalogo6 {
+    background-image: url(../multimedia/catalogo6.png);
+}
